@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@import "./fonts";
+@import "./reset";
+
+body {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    min-height: 700px;
+    padding: 100px;
+    font-family: "Rubik", sans-serif;
+    color: #fff;
+    background-color: #fff;
+    font-size: 16px;
+    background-color: #1b0a7d;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 428px;
+    padding: 40px 30px;
+    background: #000040;
+    border-radius: 60px;
+}
+
+@import "./blocks/header";
+@import "./blocks/transaction-details";
+@import "./blocks/balance";
+@import "./blocks/card-slider";
+@import "./blocks/card";
+@import "./blocks/actions";
+@import "./blocks/toolbar";
+@import "./blocks/analyze";

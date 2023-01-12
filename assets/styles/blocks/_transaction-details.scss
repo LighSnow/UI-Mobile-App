@@ -1,0 +1,66 @@
+.transaction-details {
+    margin: 0 0 17px 0;
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 0 20px 0;
+    }
+
+    &__title {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+
+    &__link {
+        font-size: 16px;
+        line-height: 19px;
+        color: #b9b2c4;
+    }
+
+    &__item {
+        display: grid;
+        grid-template-columns: 55px 1fr;
+        align-items: center;
+        column-gap: 15px;
+
+        & + & {
+            margin: 10px 0 0 0;
+        }
+    }
+
+    &__item-info {
+        display: grid;
+        grid-row-gap: 3px;
+    }
+
+    &__item-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__item-image {
+        width: 55px;
+        height: 55px;
+    }
+
+    &__item-title,
+    &__item-price {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 500;
+    }
+
+    &__item-date,
+    &__item-time {
+        font-size: 16px;
+        line-height: 19px;
+        color: #b9b2c4;
+    }
+
+    &__item-time {
+    }
+}
